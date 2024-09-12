@@ -17,9 +17,15 @@ import _10_Demos_et_tests.testerEnLot
  * @return Le nombre d'occurrences.
  */
 fun nombreOccurrences(target: Int, list: List<Int>): Int {
-    var count = 0
+    var pipo = 0
     // A COMPLETER ICI
-    return count
+    for (value in list){
+        if (value == target){
+            pipo++
+        }
+
+    }
+    return pipo
 }
 
 /* -------------------
