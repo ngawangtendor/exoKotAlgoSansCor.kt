@@ -17,11 +17,24 @@ import _10_Demos_et_tests.testerEnLot
  * @return La moyenne pondérée.
  */
 fun moyennePonderee(listeCoefVal: List<List<Number>>): Double {
-    var moyenne = 0.0
-    // A COMPLETER ICI
-    return moyenne
-}
+    var moyen = 0.0
+    var multip = 0.0
+    var sommeCoef = 0.0
+    for (soustraction in listeCoefVal){
+        multip += soustraction[0].toDouble() * soustraction[1].toDouble()
+        sommeCoef = sommeCoef.toDouble() + soustraction[0].toDouble()
 
+    }
+    moyen = multip / sommeCoef
+    return moyen
+}
+/* var coef = 0
+for (i in 0 <= ..<Listecoef){
+    moyenne = Listecoef[i][0]* Listecoef[i][1]
+    coef +=  Listecoef[i][0]
+    }
+    moyenne /= coef
+ */
 /* -------------------
     Données de test
    --------------------*/
