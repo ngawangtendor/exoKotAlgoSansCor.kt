@@ -18,7 +18,24 @@ import _10_Demos_et_tests.testerEnLot
 fun firstMax(list: List<Int>): List<Int> {
     var iMax = 0
     // A COMPLETER ICI
+    /**for (indices in list.indices){
+        println(indices)
+    }*/
+    for (valeur in list){
+
+            if (valeur > list[iMax]){
+                iMax = list.indexOf(valeur)
+
+                println("valeur = $valeur")
+                println("indiex = $iMax")
+
+            }
+
+    }
+
+
     return  listOf(list[iMax], iMax)
+
 }
 
 /* -------------------
