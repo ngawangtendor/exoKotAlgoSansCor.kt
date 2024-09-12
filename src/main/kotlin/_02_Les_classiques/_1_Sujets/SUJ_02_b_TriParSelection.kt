@@ -22,7 +22,14 @@ fun triParSelection(liste: List<Int>): MutableList<Int> {
 
     // Algorithme de tri :
     // A COMPLETER ICI
+    var nombreVide = 0
 
+    for (liste in listeCopie){
+        var minindex = liste
+        for(j  in liste+1..<listeCopie.size){
+            println(minindex)
+        }
+    }
     return listeCopie
 }
 
