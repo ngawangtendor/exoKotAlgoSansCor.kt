@@ -26,8 +26,8 @@ fun firstMax(list: List<Int>): List<Int> {
             if (valeur > list[iMax]){
                 iMax = list.indexOf(valeur)
 
-                println("valeur = $valeur")
-                println("indiex = $iMax")
+                //println("valeur = $valeur")
+                //println("indiex = $iMax")
 
             }
 
